@@ -37,4 +37,13 @@ public class JavaSE {
 				driver.findElement(By.linkText("jdk-8u371-linux-aarch64.rpm")).click();
 				
 			}
+	public class shri{
+	
+			public static void main(String[] args) {
+				WebDriver driver=new ChromeDriver();
+				driver.manage().window().maximize();
+				driver.manage().window().minimize();
+				}
+				
+	}
 }
